@@ -36,6 +36,9 @@ BOARD_KERNEL_IMAGE_NAME := kernel
 TW_DEVICE_VERSION := 1_ZG089
 TW_THEME := portrait_hdpi
 
+#fix screen turn off
+TW_NO_SCREEN_BLANK := true
+
 # disable bootloader boot since this device has no fastboot 
 TW_NO_REBOOT_BOOTLOADER := true
 
